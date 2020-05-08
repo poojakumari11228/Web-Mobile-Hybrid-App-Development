@@ -1,0 +1,245 @@
+/*import font*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+	margin: 0;
+	padding: 0;x
+}
+header{
+	background: #316DC3 !important;
+	 /*rgba(36, 79, 242, 0.8) !important;*/
+}
+header .mycontainer{
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+header i{
+	color: white;
+	padding: 4px 8px;
+}
+
+.social-li a:hover {
+	    background-color:#8772ee;
+}
+.header-ul-social{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.header-ul-social li{	
+	margin: 4px 4px;
+}
+
+.header-donate-a{
+	background: #F5F5F5;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+a{
+	text-decoration: none !important;
+}
+
+.mynavbar li{
+font-size: 13px;
+font-family: sans-serif;
+position: relative;
+display: inline-block;
+}
+.mynavbar li a{
+	color: #333333;
+	font-weight: bold;
+	padding: 8px 16px;
+	border-radius: 15px;
+}
+.mynavbar li a:hover{
+	color: white;
+	background-color: #316DC3; 	
+}
+
+/* on hover change color of i to white*/
+.mynavbar li a:hover i{
+	color: white;
+	}
+.myactive{
+background-color: #316DC3;
+color: white !important; 
+ 
+}
+.dropdown-content-container{
+	display: none;
+  position: absolute;
+  	/*margin-top: 30px;*/
+  min-width: 200px;
+   background: #fff;
+  z-index: 1;
+}
+.mydropdown i {
+	color: black;
+}
+.mydropdown:hover .dropdown-content-container{
+	display: inline-block; 	
+}
+.dropdown-content{
+  padding: 8px 16px;
+}
+.dropdown-content:hover{
+	background-color: #316DC3;
+	width: 200px;
+	color: white;
+  padding: 8px 16px;
+}
+/*
+ul.mynavbar{
+	margin: 8px 0;
+}*/
+.news-bar{
+	background-color: #316DC3;
+    height: 40px;
+    text-align: right;
+	 margin: 12px 30px;
+	 padding: 4px;
+	 color: white;
+	 font-size: 14px;
+	 height: 30px;
+	 width: 85%;
+}
+
+.news-bar label{
+	color: #00FF00;
+}
+.green-text{
+	color: #427900;
+}
+
+.blue-text{
+	color: #316DC3;
+}
+
+.introduction-container{
+	padding : 0 20px;
+}
+
+.introduction-content{
+margin: 0px 18%;
+font-size: 14px;
+color: #666666
+}
+.title-bar{
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.blue-divider{
+	background-color:  rgba(36, 79, 242, 0.8);
+}
+.blue-divider .container{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.mycard{
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+	padding: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.bottom-line{
+	border-bottom: 2px solid #427900;
+}
+
+.row-mission{
+background-color: #F7F8FA;
+padding-top: 2px;
+margin-bottom: 20px;
+}
+.section-gallary{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+	align-items: center;
+	justify-content: center;
+	margin: 0 100px;
+	 position: relative; 
+}
+.gallary-item{
+	margin: 0 3px;
+	margin-bottom: 100px;
+}
+.gallary-item img{
+	transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+	transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 2px;
+    /* left: 5px; */
+    /* transform: translate(-20%, -20%); */
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    justify-content: center;
+    width: 190px ;
+    height:180px;
+    display: flex;
+    align-items: center;
+}
+.gallary-item:hover img{
+  opacity: 0.3;
+}
+.middle i{
+	color: white;
+	background-color: #316DC3;
+	padding: 8px;
+	border-radius: 50%;
+}
+.gallary-item:hover .middle{
+  opacity: 1;
+}
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.connectus-li{
+	display: inline;
+	border-radius: 50%;
+	background-color: #316DC3;
+	margin: 3px;
+	padding: 8px;
+}
+
+.connectus-li i{
+	font-size: 18px;
+/*	padding: 10px;*/
+
+}
+/*Scroll bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #316DC3; 
+}s
