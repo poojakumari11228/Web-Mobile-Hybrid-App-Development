@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color:  #B00020;
+   }
+.contact-head{
+    background:#161515;
+    opacity: 0.9;
+    padding: 2px;
+    color: white;
+    box-shadow: 0 4px 8px 0 #DDBBA8;
+    border-radius: 5%;
+    width: 60%;
+}
+
+.contact-head>h2{
+    font-size: 40px;
+}
+.contact-head>p{
+    font-size: 15px;
+}
+
+.contact-content{
+    background:#161515;
+    opacity: 0.9;
+    padding: 3% 3%;
+    color: white;
+    box-shadow: 0 4px 8px 0 #DDBBA8;
+    border-radius: 5%;
+    width: 60%;
+}
+#contact-body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-color: #B00020;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#contact-body label{
+    font-size: 20px;
+}
+
+#contact-body small{
+    color: white;
+}
+
+#contact-body input{
+    font-size: 15px;   
+}
+
+#submit-div{
+    margin-top: 1%;
+    font-size: large;
+}
