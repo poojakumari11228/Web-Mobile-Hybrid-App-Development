@@ -1,0 +1,32 @@
+
+        #title-container {
+            margin: 2% auto;
+            width: 60%;
+            padding: 2%;
+            background-color: blanchedalmond;
+            border: 2px solid #B00020;
+            border-radius: 50px 20px;
+        }
+
+        #title-content {
+            margin: auto;
+            width: fit-content;
+        }
+
+        #title-content>h1 {
+            font-family: cursive;
+            margin-top: 0;
+            font-size: -webkit-xxx-large;
+        }
+.container-mentors{
+ color: aliceblue;  
+ width: 80%;
+ margin: auto; 
+}
+.col-card{
+    padding: 2%;
+}
+
+.card{
+    margin: 3%;
+}

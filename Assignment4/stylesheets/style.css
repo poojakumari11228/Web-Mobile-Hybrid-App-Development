@@ -25,8 +25,16 @@ nav span:hover{
 .active{
   background-color: rgb(41, 39, 39);
 }
+
+/* news bar */
+.news-bar{
+  color: aliceblue;
+   margin: 3%;
+   font-size: larger;
+}
+
 .aboutmentors{
-  margin: 10 0%;
+  /* margin: 5 0%; */
   padding: 10%;
   background-color: whitesmoke;
 }
