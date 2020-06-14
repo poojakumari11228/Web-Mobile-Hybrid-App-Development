@@ -1,23 +1,23 @@
 ﻿// ------------------- CHAPTER 1 ---------------------------
 
 //task 1
-alert("hello everyone")
+alert("hello everyone");
 
 
 //task2
-alert("error! please enter a valid password")
+alert("error! please enter a valid password");
 
 
 //task3
-alert("welcome to JS land...\n Happy Coding!")
+alert("welcome to JS land...\n Happy Coding!");
 
 
 //task4
-alert("welcome to JS land")
-alert(" Happy Coding!")
+alert("welcome to JS land");
+alert(" Happy Coding!");
 
 //task5
-console.log("hello.. I can run JS thru my web browser's console.")
+console.log("hello.. I can run JS thru my web browser's console.");
 
 //Task 6 
 document.write('<a href="Project_for_chapter1_task6/index.html">Click here for task 6 on another project </a>');
@@ -32,39 +32,39 @@ document.write('<a href="Project_for_chapter1_task6/index.html">Click here for t
 var username="Pooja";
 
 //task2
-var fullName="Pooja Kumari"
+var fullName="Pooja Kumari";
 var myName=fullName;
-alert(myName)
+alert(myName);
 
 
 //task3
-var message="hello world"
-alert(message)
+var message="hello world";
+alert(message);
 
 
 //task4
-var name=prompt("name: ")
-var age=prompt("age: ")
-var skill=prompt("skill: ")
-alert(name+ "\n"+ age+ "\n"+ skill)
- 
+var name=prompt("name: ");
+var age=prompt("age: ");
+var skill=prompt("skill: ");
+alert(name+ "\n"+ age+ "\n"+ skill); 
+
 //task 5
-var pyramid="PIZZA \n PIZZ \n PIZ \n PI \n P"
-alert(pyramid)
+var pyramid="PIZZA \n PIZZ \n PIZ \n PI \n P";
+alert(pyramid);
 
 //task6
-var email="poojakumari11228@gmail.com"
-alert("my email address is "+email)
+var email="poojakumari11228@gmail.com";
+alert("my email address is "+email);
 
 //task7
-var book=" A smarter way to learn JS"
-alert("i am trying to learn from "+ book)
+var book=" A smarter way to learn JS";
+alert("i am trying to learn from "+ book);
 
 //task8
-document.write("YAH! I can write HTML content thru JS")
+document.write("YAH! I can write HTML content thru JS");
 
 //task9
-alert("----------- ஜ۩۞۩ஜ ------------")
+alert("----------- ஜ۩۞۩ஜ ------------");
 
 
 // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -77,7 +77,7 @@ alert("----------- ஜ۩۞۩ஜ ------------")
 
 //task1 
 var age=21;
-alert("I AM " +age+ " years old")
+alert("I AM " +age+ " years old");
 
 
 
@@ -90,8 +90,8 @@ var loaded = parseInt(localStorage.getItem('loaded'), 10),
 
      
 //task 3
-var birthYear=1998
-document.write("My birth year is "+ birthYear +  "<br> data type of my declared variable is number")
+var birthYear=1998;
+document.write("My birth year is "+ birthYear +  "<br> data type of my declared variable is number");
 
 //task4
 var name=prompt("your name: ");
@@ -360,7 +360,7 @@ document.write("<br> <br> WELCOME "+ name + "!");
 
 // TASK 5
 
-y = prompt("Enter any Number.")
+y = prompt("Enter any Number.");
 y = y || 5;
 for( var i = 1; i<11; i++){
     document.write(y + " * " +i+ " = " + y*i +"<br>");
@@ -398,14 +398,14 @@ document.getElementsByClassName("total3").innerHTML= total;
 
 var city = window.prompt("Enter the name of the city: ");
 
-var citylc = city.toLowerCase()
+var citylc = city.toLowerCase();
 
 if (citylc == "karachi") {
-    alert("Welcome to the city of lights!")
+    alert("Welcome to the city of lights!");
 
 }
 else {
-    alert("Welcome to " + city + "!")
+    alert("Welcome to " + city + "!");
 }
 
 //Task 2
@@ -413,19 +413,19 @@ else {
 
 var gender = window.prompt("Enter your gender (male/female): ");
 
-var genderlc = gender.toLowerCase()
+var genderlc = gender.toLowerCase();
 
 if (genderlc == "male") {
 
-    alert("Good Morning Sir!")
+    alert("Good Morning Sir!");
 
 }
 
 else if (genderlc == "female") {
-    alert("Good Morning Ma'am!")
+    alert("Good Morning Ma'am!");
 }
 else {
-    alert("Please enter either male or female!")
+    alert("Please enter either male or female!");
 }
 
 //Task 3
@@ -433,35 +433,35 @@ else {
 
 var color = window.prompt("Enter the color of the traffic signal (red/yellow/green): ");
 
-var colorlc = color.toLowerCase()
+var colorlc = color.toLowerCase();
 
 if (colorlc == "red") {
-    alert("Must stop!")
+    alert("Must stop!");
 
 }
 else if (colorlc == "yellow") {
-    alert("Ready to move!")
+    alert("Ready to move!");
 }
 else if (colorlc == "green") {
-    alert("Move now!")
+    alert("Move now!");
 }
 else {
-    alert("Please enter the correct color!")
+    alert("Please enter the correct color!");
 }
 
 //Task 4
 
 var ltr = window.prompt("Enter the remaining fuel (in litres): ");
 
-var ltrf = parseFloat(ltr)
+var ltrf = parseFloat(ltr);
 
 if (ltrf < 0.25) {
-    alert("Please refill the fuel in your car!")
+    alert("Please refill the fuel in your car!");
 
 }
 
 else {
-    alert("You are good to go!")
+    alert("You are good to go!");
 }
 
 // Task 5
@@ -604,12 +604,12 @@ var numi = parseInt(num);
 
 if (numi % 2 == 0) {
 
-    alert("It is an even number.")
+    alert("It is an even number.");
 
 }
 
 else {
-    alert("It is an odd number.")
+    alert("It is an odd number.");
 }
 
 // Task 10
@@ -620,29 +620,29 @@ var temperaturei = parseInt(temperature);
 
 if (temperaturei > 40) {
 
-    alert("It is too hot outside.")
+    alert("It is too hot outside.");
 
 }
 
 else if (temperaturei > 30) {
 
-    alert("The weather today is normal.")
+    alert("The weather today is normal.");
 
 }
 
 else if (temperaturei > 20) {
 
-    alert("Today's weather is cool.")
+    alert("Today's weather is cool.");
 
 }
 else if (temperaturei > 10) {
 
-    alert("OMG! Today's weather is so cool.")
+    alert("OMG! Today's weather is so cool.");
 
 }
 
 else {
-    alert("It is freezing today.")
+    alert("It is freezing today.");
 }
 
 // Task 11
@@ -661,35 +661,35 @@ var num2f = parseFloat(num2);
 
 if (op == "+") {
 
-    alert(num1f + num2f)
+    alert(num1f + num2f);
 
 }
 
 else if (op == "-") {
 
-    alert(num1f - num2f)
+    alert(num1f - num2f);
 
 }
 
 else if (op == "*") {
 
-    alert(num1f * num2f)
+    alert(num1f * num2f);
 
 }
 else if (op == "/") {
 
-    alert(num1f / num2f)
+    alert(num1f / num2f);
 
 }
 
 else if (op == "%") {
 
-    alert(num1f % num2f)
+    alert(num1f % num2f);
 
 }
 
 else {
-    alert("Enter correct details!")
+    alert("Enter correct details!");
 }
 
 
@@ -977,7 +977,7 @@ console.log(num_array);
 document.write("<h3>Numeric Counting From 1 to 10</h3>");
 for (var input = 1; input <= 10; input++) {
     console.log(input);
-    document.write(input + "<br>")
+    document.write(input + "<br>");
 }
 
 // Task  4
