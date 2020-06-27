@@ -1,0 +1,106 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator - Pooja Kumari</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<div class="calc-body">
+		<table>
+
+			<tr class="display-container">
+				<td colspan="4">
+					<input type="text" name="display" id="display" disabled>
+				</td>
+			</tr>
+
+			
+			<tr>
+				<td>
+					<input type="button" style="background: red; color: honeydew;"  id="C" value="C" onclick="resetInput()">
+				</td>
+				<td>
+					<input type="button" id="%" value="%" onclick="getBtnChar(this.id)">
+				</td>
+				<td>
+					<input type="button" id="*" value="X" onclick="getBtnChar(this.id)">
+				</td>
+				<td>
+					<input type="button" id="/" value="/" onclick="getBtnChar(this.id)" />
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<input type="button" id="7" value="7" onclick="getBtnChar(this.id)" />
+				</td>
+				<td>
+					<input type="button" id="8" value="8" onclick="getBtnChar(this.id)" />
+				</td>
+				<td>
+					<input type="button" id="9" value="9" onclick="getBtnChar(this.id)" />
+				</td>
+				<td>
+					<input type="button" id="+" value="+" onclick="getBtnChar(this.id)" />
+				</td>
+				
+			</tr>
+
+
+			<tr>
+				<td>
+					<input type="button" id="4" value="4" onclick="getBtnChar(this.id)">
+				</td>
+				<td>
+					<input type="button" id="5" value="5" onclick="getBtnChar(this.id)">
+				</td>
+				<td>
+					<input type="button" id="6" value="6" onclick="getBtnChar(this.id)">
+				</td>
+				<td>
+					<input type="button" id="-" value="-" onclick="getBtnChar(this.id)" />
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<input type="button" id="1" value="1" onclick="getBtnChar(this.id)">
+				</td>
+				<td>
+					<input type="button" id="2" value="2" onclick="getBtnChar(this.id)">
+				</td>
+				<td>
+					<input type="button" id="3" value="3" onclick="getBtnChar(this.id)">
+				</td>
+				<td rowspan="2">
+					<input type="button" style="background: green; color: honeydew;" id="=" value="=" onclick="getResult()">
+				</td>
+			</tr>
+
+			<tr>
+				
+				<td>
+					<input type="button" style="background: red; color: honeydew;" id="CE" value="CE" onclick="resetOneChar()" />
+				</td>
+				<td>
+					<input type="button" id="0" value="0" onclick="getBtnChar(this.id)">
+				</td>
+				<td>
+					<input type="button" id="." value="." onclick="getBtnChar(this.id)">
+				</td>
+				
+			</tr>
+
+		</table>
+
+	</div>
+	<script src="app.js"></script>
+</body>
+
+</html>

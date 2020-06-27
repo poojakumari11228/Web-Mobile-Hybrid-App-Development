@@ -1,0 +1,35 @@
+html{
+	height: 100%;
+	align:center;
+}
+body{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-image: url("background.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+table{
+	height: 300;
+    width: 300;
+}
+
+tr input, tr button{
+width: 100%;
+height: 100%;
+font-weight: bolder;
+font-size: large;
+}
+
+
+#display{
+text-align: right;
+}
+
+.calc-body{
+	background-color: #c1a6af;
+	padding: 1%;
+	border-radius: 2%;
+}
